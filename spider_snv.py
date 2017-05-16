@@ -7,7 +7,7 @@ import requests, os, re
 
 
 def get_index_page(offset):
-    url = 'http://www.svmhz.com/shaonvmanhua/list_4_%s.html' % offset
+    url = 'http://*****/****manhua/list_4_%s.html' % offset
     try:
         response = requests.get(url)
         response.encoding = response.apparent_encoding
